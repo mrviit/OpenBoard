@@ -29,6 +29,7 @@
 
 #include "UBThumbnailView.h"
 #include "domain/UBGraphicsScene.h"
+#include "domain/UBGraphicsWidgetItem.h"
 
 #include "core/UBMimeData.h"
 
@@ -42,6 +43,8 @@ UBThumbnailView::UBThumbnailView(UBGraphicsScene *scene, QWidget* parent)
     setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     setRenderHints(QPainter::Antialiasing | QPainter::SmoothPixmapTransform | QPainter::TextAntialiasing);
+
+    setOptimizationFlag(IndirectPainting);
 
     int nominalWidth = scene->nominalSize().width();
     int nominalHeight = scene->nominalSize().height();

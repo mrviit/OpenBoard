@@ -37,59 +37,41 @@
 
 #include "document/UBDocumentContainer.h"
 #include "UBThumbnailWidget.h"
+#include "UBThumbnailsView.h"
 
-class UBBoardThumbnailsView : public QGraphicsView
+class UBBoardThumbnailsView : public UBThumbnailsView
 {
     Q_OBJECT
 public:
     UBBoardThumbnailsView(QWidget* parent=0, const char* name="UBBoardThumbnailsView");
 
 public slots:
-    void ensureVisibleThumbnail(int index);
-    void centerOnThumbnail(int index);
+    void ensureVisibleThumbnail(int index) override;
+    void centerOnThumbnail(int index) override;
 
-    void clearThumbnails();
-    void initThumbnails(UBDocumentContainer* source);
-    void addThumbnail(UBDocumentContainer* source, int i);
-    void moveThumbnail(int from, int to);
-    void removeThumbnail(int i);
-    void updateThumbnails();
+    void clearThumbnails() override;
+    void initThumbnails(UBDocumentContainer* source) override;
+    void addThumbnail(UBDocumentContainer* source, int i) override;
+    void moveThumbnail(int from, int to) override;
+    void removeThumbnail(int i) override;
+    void updateThumbnails() override;
 
-    void longPressTimeout();
-    void mousePressAndHoldEvent(QPoint pos);
+    void longPressTimeout() override;
+    void mousePressAndHoldEvent(QPoint pos) override;
 
 protected:
-    virtual void resizeEvent(QResizeEvent *event);
+    virtual void resizeEvent(QResizeEvent *event) override;
 
-    virtual void dragEnterEvent(QDragEnterEvent* event);
-    virtual void dragMoveEvent(QDragMoveEvent* event);
-    virtual void dropEvent(QDropEvent* event);
+    virtual void dragEnterEvent(QDragEnterEvent* event) override;
+    virtual void dragMoveEvent(QDragMoveEvent* event) override;
+    virtual void dropEvent(QDropEvent* event) override;
 
-    virtual void mousePressEvent(QMouseEvent *event);
-    virtual void mouseMoveEvent(QMouseEvent *event);
-    virtual void mouseReleaseEvent(QMouseEvent *event);
-
-signals:
-    void mousePressAndHoldEventRequired(QPoint pos);
-    void moveThumbnailRequired(int from, int to);
+    virtual void mousePressEvent(QMouseEvent *event) override;
+    virtual void mouseMoveEvent(QMouseEvent *event) override;
+    virtual void mouseReleaseEvent(QMouseEvent *event) override;
 
 private:
-    UBDraggableThumbnailView* createThumbnail(UBDocumentContainer* source, int i);
-    void updateThumbnailsPos();
-
-    QList<UBDraggableThumbnailView*> mThumbnails;
-
-    int mThumbnailWidth;
-    const int mThumbnailMinWidth;
-    const int mMargin;
-
-    UBDraggableThumbnailView* mDropSource;
-    UBDraggableThumbnailView* mDropTarget;
-    QGraphicsRectItem *mDropBar;
-
-    int mLongPressInterval;
-    QTimer mLongPressTimer;
-    QPoint mLastPressedMousePos;
+    void updateThumbnailsPos() override;
 };
 
 #endif // UBBOARDTHUMBNAILSVIEW_H

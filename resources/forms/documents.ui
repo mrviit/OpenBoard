@@ -217,7 +217,7 @@
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_3">
           <item>
-           <widget class="UBDocumentThumbnailWidget" name="thumbnailWidget">
+           <widget class="UBDocumentThumbnailsView" name="documentThumbnailsView">
             <property name="contextMenuPolicy">
              <enum>Qt::NoContextMenu</enum>
             </property>
@@ -346,14 +346,14 @@
  <layoutdefault spacing="0" margin="0"/>
  <customwidgets>
   <customwidget>
-   <class>UBDocumentThumbnailWidget</class>
-   <extends>QGraphicsView</extends>
-   <header>gui/UBDocumentThumbnailWidget.h</header>
-  </customwidget>
-  <customwidget>
    <class>UBDocumentTreeView</class>
    <extends>QTreeView</extends>
    <header>document/UBDocumentController.h</header>
+  </customwidget>
+  <customwidget>
+   <class>UBDocumentThumbnailsView</class>
+   <extends>QGraphicsView</extends>
+   <header>gui/UBDocumentThumbnailsView.h</header>
   </customwidget>
  </customwidgets>
  <resources>

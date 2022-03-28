@@ -1,4 +1,6 @@
 HEADERS += src/gui/UBThumbnailView.h \
+    $$PWD/UBDocumentThumbnailsView.h \
+    $$PWD/UBThumbnailsView.h \
     src/gui/UBFloatingPalette.h \
     src/gui/UBToolbarButtonGroup.h \
     src/gui/UBStylusPalette.h \
@@ -42,6 +44,8 @@ HEADERS += src/gui/UBThumbnailView.h \
     src/gui/UBBackgroundPalette.h \
     src/gui/UBBoardThumbnailsView.h
 SOURCES += src/gui/UBThumbnailView.cpp \
+    $$PWD/UBDocumentThumbnailsView.cpp \
+    $$PWD/UBThumbnailsView.cpp \
     src/gui/UBFloatingPalette.cpp \
     src/gui/UBToolbarButtonGroup.cpp \
     src/gui/UBStylusPalette.cpp \

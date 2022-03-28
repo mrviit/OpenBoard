@@ -159,7 +159,7 @@ void UBDocumentContainer::insertExistingThumbPage(int index, std::shared_ptr<QPi
 
 void UBDocumentContainer::reloadThumbnails()
 {
-    emit documentThumbnailsUpdated(this);
+    //emit documentThumbnailsUpdated(this);
 }
 
 int UBDocumentContainer::pageFromSceneIndex(int sceneIndex)
