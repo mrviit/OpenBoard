@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>OpenBoard</string>
+   <string>Prointek Canvas</string>
   </property>
   <property name="windowIcon">
    <iconset resource="../OpenBoard.qrc">
@@ -349,7 +349,7 @@
     <string>Quit</string>
    </property>
    <property name="toolTip">
-    <string>Quit OpenBoard</string>
+    <string>Quit Prointek Canvas</string>
    </property>
    <property name="shortcutContext">
     <enum>Qt::WindowShortcut</enum>
@@ -625,10 +625,10 @@
      <normaloff>:/images/toolbar/menu.png</normaloff>:/images/toolbar/menu.png</iconset>
    </property>
    <property name="text">
-    <string>OpenBoard</string>
+    <string>Prointek Canvas</string>
    </property>
    <property name="toolTip">
-    <string>OpenBoard</string>
+    <string>Prointek Canvas</string>
    </property>
   </action>
   <action name="actionDesktop">
@@ -1625,10 +1625,10 @@
      <normaloff>:/images/toolbar/hide.png</normaloff>:/images/toolbar/hide.png</iconset>
    </property>
    <property name="text">
-    <string>Hide OpenBoard</string>
+    <string>Hide Prointek Canvas</string>
    </property>
    <property name="toolTip">
-    <string>Hide OpenBoard Application</string>
+    <string>Hide Prointek Canvas Application</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+H</string>

@@ -760,20 +760,20 @@
         <translation>Ctrl+H</translation>
     </message>
     <message>
-        <source>OpenBoard</source>
-        <translation type="unfinished">OpenBoard</translation>
+        <source>Prointek Canvas</source>
+        <translation type="unfinished">Prointek Canvas</translation>
     </message>
     <message>
-        <source>Quit OpenBoard</source>
-        <translation type="unfinished">OpenBoard 종료</translation>
+        <source>Quit Prointek Canvas</source>
+        <translation type="unfinished">Prointek Canvas 종료</translation>
     </message>
     <message>
-        <source>Hide OpenBoard</source>
-        <translation type="unfinished">OpenBoard 숨기기</translation>
+        <source>Hide Prointek Canvas</source>
+        <translation type="unfinished">Prointek Canvas 숨기기</translation>
     </message>
     <message>
-        <source>Hide OpenBoard Application</source>
-        <translation type="unfinished">OpenBoard 응용 프로그램 숨기기</translation>
+        <source>Hide Prointek Canvas Application</source>
+        <translation type="unfinished">Prointek Canvas 응용 프로그램 숨기기</translation>
     </message>
     <message>
         <source>Play</source>
@@ -1085,7 +1085,7 @@
         <translation>보조 화면에 바탕 화면 보이기</translation>
     </message>
     <message>
-        <source>Show OpenBoard</source>
+        <source>Show Prointek Canvas</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1233,7 +1233,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The document &apos;%1&apos; has been generated with a newer version of OpenBoard (%2). By opening it, you may lose some information. Do you want to proceed?</source>
+        <source>The document &apos;%1&apos; has been generated with a newer version of Prointek Canvas (%2). By opening it, you may lose some information. Do you want to proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1489,7 +1489,7 @@ Providing a new name will create a new document.</source>
         <translation>%1 내보내는 중 %2/%3</translation>
     </message>
     <message>
-        <source>Export to OpenBoard Format</source>
+        <source>Export to Prointek Canvas Format</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1516,7 +1516,7 @@ Providing a new name will create a new document.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Export to OpenBoard UBX Format</source>
+        <source>Export to Prointek Canvas UBX Format</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1842,14 +1842,14 @@ Providing a new name will create a new document.</source>
         <translation>%1 파일 가져오기 실패.</translation>
     </message>
     <message>
-        <source>OpenBoard (*.ubz)</source>
+        <source>Prointek Canvas (*.ubz)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>UBImportDocumentSetAdaptor</name>
     <message>
-        <source>Openboard (set of documents) (*.ubx)</source>
+        <source>Prointek Canvas (set of documents) (*.ubx)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1968,7 +1968,7 @@ Do you want to ignore these errors for this host?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Open-Sankoré documents are present on your computer. It is possible to import them to OpenBoard by pressing the “Proceed” button to launch the importer application.</source>
+        <source>Open-Sankoré documents are present on your computer. It is possible to import them to Prointek Canvas by pressing the “Proceed” button to launch the importer application.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1976,7 +1976,7 @@ Do you want to ignore these errors for this host?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>You can always access the OpenBoard Document Importer through the Preferences panel in the About tab. Warning, if you have already imported your Open-Sankore datas, you might loose your current OpenBoard documents.</source>
+        <source>You can always access the Prointek Canvas Document Importer through the Preferences panel in the About tab. Warning, if you have already imported your Open-Sankore datas, you might loose your current Prointek Canvas documents.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1995,7 +1995,7 @@ Do you want to ignore these errors for this host?</source>
         <translation>문서 저장소 손실</translation>
     </message>
     <message>
-        <source>OpenBoard has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
+        <source>Prointek Canvas has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2085,7 +2085,7 @@ Do you want to ignore these errors for this host?</source>
         <translation>YouTube에 게시</translation>
     </message>
     <message>
-        <source>OpenBoard Cast</source>
+        <source>Prointek Canvas Cast</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2559,7 +2559,7 @@ Please reboot the application to access the updated documents.</source>
         <translation>페이지 불러오기 오류: %1</translation>
     </message>
     <message>
-        <source>Download PDF Document: would you prefer to download the PDF file or add it to the current OpenBoard document?</source>
+        <source>Download PDF Document: would you prefer to download the PDF file or add it to the current Prointek Canvas document?</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2620,8 +2620,8 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:10pt;&quot;&gt;귀하는 &apos;Upload&apos;를 클릭함으로써 귀하가 해당 콘텐츠에 대한 모든 권한을 소유하거나 소유자로부터 해당 콘텐츠를 YouTube에 공개할 수 있도록 허락받았으며, 해당 콘텐츠가 YouTube 이용약관 (&lt;/span&gt;&lt;a href=&quot;http://www.youtube.com/t/terms&quot;&gt;&lt;span style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:10pt; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.youtube.com/t/terms&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:10pt;&quot;&gt;)을 준수함을 보증합니다.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>OpenBoard</source>
-        <translation type="unfinished">OpenBoard</translation>
+        <source>Prointek Canvas</source>
+        <translation type="unfinished">Prointek Canvas</translation>
     </message>
     <message>
         <source>Restore credentials on reboot</source>
@@ -2720,7 +2720,7 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>documents</name>
     <message>
-        <source>OpenBoard Documents</source>
+        <source>Prointek Canvas Documents</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

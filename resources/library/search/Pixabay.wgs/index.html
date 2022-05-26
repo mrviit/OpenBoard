@@ -62,7 +62,7 @@
         /* Initialize the page layout */
         function loadPage() {
 
-            // Get OpenBoard's current language
+            // Get Prointek Canvas's current language
             var appLanguage = window.sankore ? sankore.locale().substr(0,2) : searchLanguage;
             
             // Set it as search language, if possible
@@ -185,7 +185,7 @@
                 /* 
                    Images are displayed in an `imgContainer` element. It contains
                    the image itself (`newImg`) but also some hidden fields containing
-                   metadata that is sent to OpenBoard if the user clicks the image
+                   metadata that is sent to Prointek Canvas if the user clicks the image
                 */
 
                 // Image element
@@ -199,7 +199,7 @@
                 imgContainer.width(imgWidth).height(imgHeight);
                 imgContainer.append($(newImg));
 
-                // Metadata to send to OpenBoard
+                // Metadata to send to Prointek Canvas
                 var iUrl = $("<input type='hidden'/>");
                 var iContent = $("<input type='hidden'/>");
                 var iHeight = $("<input type='hidden'/>");

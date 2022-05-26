@@ -760,20 +760,20 @@
         <translation>Strg+H</translation>
     </message>
     <message>
-        <source>OpenBoard</source>
-        <translation>OpenBoard</translation>
+        <source>Prointek Canvas</source>
+        <translation>Prointek Canvas</translation>
     </message>
     <message>
-        <source>Quit OpenBoard</source>
-        <translation>OpenBoard verlassen</translation>
+        <source>Quit Prointek Canvas</source>
+        <translation>Prointek Canvas verlassen</translation>
     </message>
     <message>
-        <source>Hide OpenBoard</source>
-        <translation>OpenBoard ausblenden</translation>
+        <source>Hide Prointek Canvas</source>
+        <translation>Prointek Canvas ausblenden</translation>
     </message>
     <message>
-        <source>Hide OpenBoard Application</source>
-        <translation>OpenBoard ausblenden</translation>
+        <source>Hide Prointek Canvas Application</source>
+        <translation>Prointek Canvas ausblenden</translation>
     </message>
     <message>
         <source>Play</source>
@@ -1089,8 +1089,8 @@
         <translation>Desktop auf zweitem Bildschirm anzeigen</translation>
     </message>
     <message>
-        <source>Show OpenBoard</source>
-        <translation>Zeige OpenBoard</translation>
+        <source>Show Prointek Canvas</source>
+        <translation>Zeige Prointek Canvas</translation>
     </message>
 </context>
 <context>
@@ -1223,8 +1223,8 @@
         <translation>Unbenanntes Dokument</translation>
     </message>
     <message>
-        <source>The document &apos;%1&apos; has been generated with a newer version of OpenBoard (%2). By opening it, you may lose some information. Do you want to proceed?</source>
-        <translation>Das Dokument &apos;%1&apos; wurde mit einer neueren Version von OpenBoard erstellt (%2). Beim Öffnen können einige Informationen verloren gehen. Möchten Sie fortfahren?</translation>
+        <source>The document &apos;%1&apos; has been generated with a newer version of Prointek Canvas (%2). By opening it, you may lose some information. Do you want to proceed?</source>
+        <translation>Das Dokument &apos;%1&apos; wurde mit einer neueren Version von Prointek Canvas erstellt (%2). Beim Öffnen können einige Informationen verloren gehen. Möchten Sie fortfahren?</translation>
     </message>
     <message>
         <source>Are you sure you want to remove all selected documents?</source>
@@ -1503,8 +1503,8 @@ Wenn Sie einen neuen Namen wählen, wird ein neues Dokument erstellt.</translati
         <translation>%1 %2 von %3 werden exportiert</translation>
     </message>
     <message>
-        <source>Export to OpenBoard Format</source>
-        <translation>In das OpenBoard Format exportieren</translation>
+        <source>Export to Prointek Canvas Format</source>
+        <translation>In das Prointek Canvas Format exportieren</translation>
     </message>
     <message>
         <source>Export failed: location not writable</source>
@@ -1542,8 +1542,8 @@ Wenn Sie einen neuen Namen wählen, wird ein neues Dokument erstellt.</translati
         <translation>Export fehlgeschlagen.</translation>
     </message>
     <message>
-        <source>Export to OpenBoard UBX Format</source>
-        <translation>In das UBX OpenBoard Format exportieren</translation>
+        <source>Export to Prointek Canvas UBX Format</source>
+        <translation>In das UBX Prointek Canvas Format exportieren</translation>
     </message>
 </context>
 <context>
@@ -1880,15 +1880,15 @@ Wenn Sie einen neuen Namen wählen, wird ein neues Dokument erstellt.</translati
         <translation>Import  der Datei %1 fehlgeschlagen.</translation>
     </message>
     <message>
-        <source>OpenBoard (*.ubz)</source>
-        <translation>OpenBoard (*.ubz)</translation>
+        <source>Prointek Canvas (*.ubz)</source>
+        <translation>Prointek Canvas (*.ubz)</translation>
     </message>
 </context>
 <context>
     <name>UBImportDocumentSetAdaptor</name>
     <message>
-        <source>Openboard (set of documents) (*.ubx)</source>
-        <translation>Openboard (Dokumentensammlung) (*.ubx)</translation>
+        <source>Prointek Canvas (set of documents) (*.ubx)</source>
+        <translation>Prointek Canvas (Dokumentensammlung) (*.ubx)</translation>
     </message>
 </context>
 <context>
@@ -2006,8 +2006,8 @@ Möchten Sie diese Fehler für diesen Computer ignorieren?</translation>
         <translation>Diesen Dialog erneut anzeigen</translation>
     </message>
     <message>
-        <source>You can always access the OpenBoard Document Importer through the Preferences panel in the About tab. Warning, if you have already imported your Open-Sankore datas, you might loose your current OpenBoard documents.</source>
-        <translation>Sie können jederzeit im Einstellungsdialog im Menü &quot;Über&quot; auf den OpenBoard Document Importer zugreifen. Warnung, falls sie bereits Ihre Open-Sankore Daten importiert haben, können Sie Ihre aktuellen OpenBoard Dokumente verlieren.</translation>
+        <source>You can always access the Prointek Canvas Document Importer through the Preferences panel in the About tab. Warning, if you have already imported your Open-Sankore datas, you might loose your current Prointek Canvas documents.</source>
+        <translation>Sie können jederzeit im Einstellungsdialog im Menü &quot;Über&quot; auf den Prointek Canvas Document Importer zugreifen. Warnung, falls sie bereits Ihre Open-Sankore Daten importiert haben, können Sie Ihre aktuellen Prointek Canvas Dokumente verlieren.</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -2018,8 +2018,8 @@ Möchten Sie diese Fehler für diesen Computer ignorieren?</translation>
         <translation>Fortfahren</translation>
     </message>
     <message>
-        <source>Open-Sankoré documents are present on your computer. It is possible to import them to OpenBoard by pressing the “Proceed” button to launch the importer application.</source>
-        <translation>Auf Ihrem Computer befinden sich Open-Sankoré Dokumente. Um diese in OpenBoard zu importieren drücken Sie den &quot;Fortfahren&quot; Knopf um die Importanwendung zu starten.</translation>
+        <source>Open-Sankoré documents are present on your computer. It is possible to import them to Prointek Canvas by pressing the “Proceed” button to launch the importer application.</source>
+        <translation>Auf Ihrem Computer befinden sich Open-Sankoré Dokumente. Um diese in Prointek Canvas zu importieren drücken Sie den &quot;Fortfahren&quot; Knopf um die Importanwendung zu starten.</translation>
     </message>
 </context>
 <context>
@@ -2049,8 +2049,8 @@ Möchten Sie diese Fehler für diesen Computer ignorieren?</translation>
         <translation type="vanished">Die Seite in den Papierkorb verschieben...</translation>
     </message>
     <message>
-        <source>OpenBoard has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
-        <translation>Openboard hat den Zugang zum Dokumentenarchiv &apos;%1&apos; verloren. Die Anwendung muss leider beendet werden, um Datenkorruption zu vermeiden. Der Verlust kürzlich vorgenommener Änderungen ist möglich.</translation>
+        <source>Prointek Canvas has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
+        <translation>Prointek Canvas hat den Zugang zum Dokumentenarchiv &apos;%1&apos; verloren. Die Anwendung muss leider beendet werden, um Datenkorruption zu vermeiden. Der Verlust kürzlich vorgenommener Änderungen ist möglich.</translation>
     </message>
     <message>
         <source>Renaming pages (%1/%2)</source>
@@ -2139,8 +2139,8 @@ Möchten Sie diese Fehler für diesen Computer ignorieren?</translation>
         <translation>Auf YouTube veröffentlichen</translation>
     </message>
     <message>
-        <source>OpenBoard Cast</source>
-        <translation>OpenBoard Cast</translation>
+        <source>Prointek Canvas Cast</source>
+        <translation>Prointek Canvas Cast</translation>
     </message>
 </context>
 <context>
@@ -2618,8 +2618,8 @@ Bitte starten Sie die Anwendung erneut, um auf die aktualisierten Dokumente zugr
         <translation>Fehler beim Laden der Seite: %1</translation>
     </message>
     <message>
-        <source>Download PDF Document: would you prefer to download the PDF file or add it to the current OpenBoard document?</source>
-        <translation>PDF Dokument herunterladen: Möchten Sie die PDF-Datei herunterladen oder sie zum aktuellen OpenBoard Dokument hinzufügen?</translation>
+        <source>Download PDF Document: would you prefer to download the PDF file or add it to the current Prointek Canvas document?</source>
+        <translation>PDF Dokument herunterladen: Möchten Sie die PDF-Datei herunterladen oder sie zum aktuellen Prointek Canvas Dokument hinzufügen?</translation>
     </message>
 </context>
 <context>
@@ -2683,8 +2683,8 @@ p, li { white-space: pre-wrap; }
         <translation>Zugangsdaten beim Neustarten wiederherstellen</translation>
     </message>
     <message>
-        <source>OpenBoard</source>
-        <translation>OpenBoard</translation>
+        <source>Prointek Canvas</source>
+        <translation>Prointek Canvas</translation>
     </message>
 </context>
 <context>
@@ -2779,8 +2779,8 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>documents</name>
     <message>
-        <source>OpenBoard Documents</source>
-        <translation>OpenBoard Dokumente</translation>
+        <source>Prointek Canvas Documents</source>
+        <translation>Prointek Canvas Dokumente</translation>
     </message>
     <message>
         <source>Creation date</source>

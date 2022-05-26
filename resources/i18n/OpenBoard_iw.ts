@@ -760,19 +760,19 @@
         <translation>Ctrl+H</translation>
     </message>
     <message>
-        <source>OpenBoard</source>
+        <source>Prointek Canvas</source>
         <translation>הגרסה הפתוחה של Sankoré</translation>
     </message>
     <message>
-        <source>Quit OpenBoard</source>
+        <source>Quit Prointek Canvas</source>
         <translation>יציאה מהגרסה הפתוחה של  Sankoré</translation>
     </message>
     <message>
-        <source>Hide OpenBoard</source>
+        <source>Hide Prointek Canvas</source>
         <translation>הסתר את הגרסה הפתוחה של Sankoré</translation>
     </message>
     <message>
-        <source>Hide OpenBoard Application</source>
+        <source>Hide Prointek Canvas Application</source>
         <translation>הסתר את היישום של הגרסה הפתוחה של Sankoré</translation>
     </message>
     <message>
@@ -1086,7 +1086,7 @@
         <translation>הצג את שולחן העבודה על מסך משני</translation>
     </message>
     <message>
-        <source>Show OpenBoard</source>
+        <source>Show Prointek Canvas</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1236,7 +1236,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The document &apos;%1&apos; has been generated with a newer version of OpenBoard (%2). By opening it, you may lose some information. Do you want to proceed?</source>
+        <source>The document &apos;%1&apos; has been generated with a newer version of Prointek Canvas (%2). By opening it, you may lose some information. Do you want to proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1479,7 +1479,7 @@ Providing a new name will create a new document.</source>
         <translation>מייצא %1 %2 מתוך %3</translation>
     </message>
     <message>
-        <source>Export to OpenBoard Format</source>
+        <source>Export to Prointek Canvas Format</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1506,7 +1506,7 @@ Providing a new name will create a new document.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Export to OpenBoard UBX Format</source>
+        <source>Export to Prointek Canvas UBX Format</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1832,14 +1832,14 @@ Providing a new name will create a new document.</source>
         <translation>הייבוא בוצע בהצלחה.</translation>
     </message>
     <message>
-        <source>OpenBoard (*.ubz)</source>
+        <source>Prointek Canvas (*.ubz)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>UBImportDocumentSetAdaptor</name>
     <message>
-        <source>Openboard (set of documents) (*.ubx)</source>
+        <source>Prointek Canvas (set of documents) (*.ubx)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1953,7 +1953,7 @@ Do you want to ignore these errors for this host?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Open-Sankoré documents are present on your computer. It is possible to import them to OpenBoard by pressing the “Proceed” button to launch the importer application.</source>
+        <source>Open-Sankoré documents are present on your computer. It is possible to import them to Prointek Canvas by pressing the “Proceed” button to launch the importer application.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1961,7 +1961,7 @@ Do you want to ignore these errors for this host?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>You can always access the OpenBoard Document Importer through the Preferences panel in the About tab. Warning, if you have already imported your Open-Sankore datas, you might loose your current OpenBoard documents.</source>
+        <source>You can always access the Prointek Canvas Document Importer through the Preferences panel in the About tab. Warning, if you have already imported your Open-Sankore datas, you might loose your current Prointek Canvas documents.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1980,7 +1980,7 @@ Do you want to ignore these errors for this host?</source>
         <translation>אבד מקום האכסון של המסמך</translation>
     </message>
     <message>
-        <source>OpenBoard has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
+        <source>Prointek Canvas has lost access to the document repository &apos;%1&apos;. Unfortunately the application must shut down to avoid data corruption. Latest changes may be lost as well.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2070,7 +2070,7 @@ Do you want to ignore these errors for this host?</source>
         <translation>פרסם ביוטיוב</translation>
     </message>
     <message>
-        <source>OpenBoard Cast</source>
+        <source>Prointek Canvas Cast</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2544,7 +2544,7 @@ Please reboot the application to access the updated documents.</source>
         <translation>שגיאה בטעינת עמוד: %1</translation>
     </message>
     <message>
-        <source>Download PDF Document: would you prefer to download the PDF file or add it to the current OpenBoard document?</source>
+        <source>Download PDF Document: would you prefer to download the PDF file or add it to the current Prointek Canvas document?</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2593,7 +2593,7 @@ Please reboot the application to access the updated documents.</source>
         <translation>הסיסמא ליוטיוב</translation>
     </message>
     <message>
-        <source>OpenBoard</source>
+        <source>Prointek Canvas</source>
         <translation type="unfinished">הגרסה הפתוחה של Sankoré</translation>
     </message>
     <message>
@@ -2701,7 +2701,7 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>documents</name>
     <message>
-        <source>OpenBoard Documents</source>
+        <source>Prointek Canvas Documents</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

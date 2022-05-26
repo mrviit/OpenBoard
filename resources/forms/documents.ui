@@ -23,7 +23,7 @@
    <enum>Qt::DefaultContextMenu</enum>
   </property>
   <property name="windowTitle">
-   <string>OpenBoard Documents</string>
+   <string>Prointek Canvas Documents</string>
   </property>
   <property name="styleSheet">
    <string notr="true"/>
@@ -81,9 +81,6 @@
               </property>
               <property name="styleSheet">
                <string notr="true"/>
-              </property>
-              <property name="sizeAdjustPolicy">
-               <enum>QComboBox::AdjustToMinimumContentsLength</enum>
               </property>
               <property name="minimumContentsLength">
                <number>0</number>

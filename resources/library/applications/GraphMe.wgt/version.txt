@@ -16,11 +16,11 @@ Général:
  - Sauvegarde du mode d'affichage en cours, 3D ou 2D
  - Sauvegarde de l'état de la liste des fonctions
  - Sauvegarde de l'outil sélectionné
- - Icône du widget amélioré pour OpenBoard
+ - Icône du widget amélioré pour Prointek Canvas
 
 Interface:
  - Amélioration de l'interface pour le changelog et l'aide
- - Masquage des boutons de l'affichage en plein à écran avec OpenBoard
+ - Masquage des boutons de l'affichage en plein à écran avec Prointek Canvas
  - Amélioration de l'affichage des fonctions dans l'historique
  - Message d'info au chargement du widget en cas de fonctions restaurées
  - Thème bleu foncé avec les coins carrés
@@ -34,7 +34,7 @@ Outils:
  - (2.0.2) Amélioration de la sauvegarde du graphique en image:
            affichage de l'image générée dans un menu
  - (2.0.1) Cacher les nouveaux boutons de zoom en mode affichage 3D
- -         Bug: Impossible de changer de thème avec OpenBoard
+ -         Bug: Impossible de changer de thème avec Prointek Canvas
  -         Bug: Les fonctions d'exemple ne fonctionnent pas si un autre type 
            que cartésien est sélectionné dans l'interface des fonctions
 
@@ -268,7 +268,7 @@ Affichage uniboard:
  - Uniboard 3D
 
 Interface:
- - Option pour redimensionner le widget dans OpenBoard / Sankoré
+ - Option pour redimensionner le widget dans Prointek Canvas / Sankoré
  - Bulles d'aide
  - Scroll dans uniboard
  - Menu clique droit dans uniboard

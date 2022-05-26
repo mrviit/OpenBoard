@@ -310,6 +310,16 @@ int UBApplication::exec(const QString& pFileToImport)
                                                         staticMemoryCleaner,
                                                         boardController->paletteManager()->rightPalette());
 
+    QPixmap pixmap(":/images/thumb_RXi Canvas.jpg");
+    QSplashScreen splash(pixmap);
+    splash.show();
+    QElapsedTimer timer;
+    timer.start();
+    while(timer.elapsed() < 5000){
+        QApplication::processEvents();
+    }
+    splash.finish(mainWindow);
+
 
     if (!UBApplication::fileToOpen.isEmpty())
     {
@@ -374,6 +384,7 @@ int UBApplication::exec(const QString& pFileToImport)
 
     onScreenCountChanged(1);
     connect(desktop(), SIGNAL(screenCountChanged(int)), this, SLOT(onScreenCountChanged(int)));
+
     return QApplication::exec();
 }
 
